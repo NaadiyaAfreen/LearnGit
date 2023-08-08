@@ -27,3 +27,4 @@ members.add(new members(s.getId(),s.getName()));
 id,name,rollno,marks
 
 select * from students where marks();
+Naadiya
