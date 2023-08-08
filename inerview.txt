@@ -1,0 +1,29 @@
+ [ { "id":1;"name:"Naadiya"},{ "id":2;"name:"Prashanth"},{ "id":1;"name:"Krishna"},{ "id":2;"name:"Afreen"}]
+
+List<Student>list=new ArrayList<>();
+int count=0;
+int id;
+Set<Student>list2=new Treeset<>(list);
+for(Student s:list) {
+     System.out.println(s.getId()); 
+      id=s.getId();
+        for(Student a:list) {
+          if(id==a.getId())
+            count++;
+         }
+  if(count>0)` 
+  System.out.println(id,count);
+count=0;
+}
+
+List<Member>members=new ArrayList<>();
+for(Student s:list) {
+members.add(new members(s.getId(),s.getName()));
+}
+
+1,2
+2,2
+
+id,name,rollno,marks
+
+select * from students where marks();
